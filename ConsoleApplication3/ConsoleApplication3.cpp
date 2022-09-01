@@ -5,16 +5,24 @@
 #include <list>
 using namespace std;
 
+void kvadrat(int ch)
+{
+	for (int i = 1; i <= ch; i++) {
+		cout << i * i << ' ';
 
+	}
+
+
+
+}
 
 
 int main()
 {
- 
-cout <<"hello world";
-while (true) {
-	cout << "hello world";
-}
+	int chislo;
+	cin >> chislo;
+	kvadrat(chislo);
+	
 
 }
 
