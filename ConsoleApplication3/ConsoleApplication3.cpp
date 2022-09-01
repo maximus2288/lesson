@@ -12,6 +12,9 @@ int main()
 {
  
 cout <<"hello world";
+while (true) {
+	cout << "hello world";
+}
 
 }
 
